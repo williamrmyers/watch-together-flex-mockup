@@ -1,0 +1,107 @@
+* {
+    margin: 2px;
+}
+
+body {
+    font-size: 24px;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/*.flex-header {
+    background-color: #5070B5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}*/
+.navigation {
+  display: flex;
+}
+
+.add-room-form {
+  margin-left: auto;
+  margin-right: auto/*this will push aside the other flex-items and the bird takes the remaining space!*/
+}
+
+/*NAV*/
+.navigation {
+  /* Menu Bar: */
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 0 10px 4px 0 rgba(0,0,0,0.50);
+}
+.navigation li {
+  cursor: pointer;
+}
+.navigation li:hover{
+  color: rgba(85,172,238 ,1);
+}
+.add-room-form {
+  color: rgba(85,172,238 ,1);
+  font-size: 1.3em;
+}
+
+.navigation button {
+  /* Rectangle 5: */
+  background: #000000;
+  /* Add Room: */
+  font-family: PTSans-CaptionBold;
+  /*font-size: 21px;*/
+  color: #FFFFFF;
+  letter-spacing: 0.14px;
+}
+.navigation img {
+  width: 40px;
+  height: 40px;
+}
+
+.navigation input {
+  /* Rectangle 4: */
+  background: #FFFFFF;
+  border: 1px solid #2F2F2F;
+  border-radius: 5px;
+  /* URL: */
+  font-size: 12px;
+  color: #9B9B9B;
+  letter-spacing: 0.14px;
+}
+
+/*Nav*/
+.flex-main {
+    display: flex;
+    flex: 1;
+}
+
+.flex-nav {
+    background-color: white;
+    flex: 1 1 5rem;
+}
+
+.flex-article {
+    flex: 3 3 60%;
+    /* Background: */
+    background: #FFF131;
+}
+
+.flex-aside {
+    background-color: white;
+    flex: 1 1 5rem;
+}
+
+.flex-footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media all and (max-width: 540px) {
+    .flex-main {
+        flex-direction: column;
+    }
+}
