@@ -55,6 +55,7 @@ ul {
   /*font-size: 21px;*/
   color: #FFFFFF;
   letter-spacing: 0.14px;
+  text-align: center;
 }
 .navigation img {
   width: 40px;
@@ -85,8 +86,36 @@ ul {
 
 .flex-article {
     flex: 3 3 60%;
+    text-align: left;
     /* Background: */
     background: #FFF131;
+    color: black;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.flex-article h2 {
+  /* ROOMS: */
+  font-family: PTSans-Caption;
+  font-size: 45px;
+  color: #000000;
+}
+.flex-article li {
+  list-style: none;
+  /* Rectangle 8: */
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.50);
+  /*Box text*/
+  font-family: PTSans-Caption;
+  font-size: 18px;
+  color: #000000;
+  /* Rectangle: */
+  /*background: #D8D8D8;
+  border: 1px solid #979797;*/
+  padding: 15px;
+}
+.flex-article a {
+  color: black;
 }
 
 .flex-aside {
